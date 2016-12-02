@@ -1,0 +1,13 @@
+.chapeheader{background: #55ce55; top: 0; padding: 10px 0px;}
+.chapeheader img{width: 10%}
+.chapeheader h1{color: #fff;}
+.chapeheader p{color: #fff; margin: 10px 0px;}
+
+.box-mensagens{display: block; margin: 0 auto; text-align: center; width: 415px;}
+.box-mensagens > #mensagens{width: 100%; display: block; margin: 40px 0px 40px; border: 1px solid #08560e; box-shadow: 0px 4px 34px 3px #08560e; padding: 30px;}
+
+.box-mensagens input[type='text']{width: 100%; box-shadow: 0px 1px 14px 1px #08560e; margin-bottom: 20px}
+.box-mensagens textarea{width: 100%; box-shadow: 0px 1px 14px 1px #08560e; margin-bottom: 20px}
+.box-mensagens input[type='submit']{margin: 20px auto; display: block; background: #128a1b; color: #fff; border: none; padding: 10px; box-shadow: 0px 0px 10px 5px #08560e;}
+
+.div-mensagens{margin: 10px auto; width: 100%; border: 1px solid green; padding: 5px;}
