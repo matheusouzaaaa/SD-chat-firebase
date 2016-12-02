@@ -11,3 +11,11 @@
 .box-mensagens input[type='submit']{margin: 20px auto; display: block; background: #128a1b; color: #fff; border: none; padding: 10px; box-shadow: 0px 0px 10px 5px #08560e;}
 
 .div-mensagens{margin: 10px auto; width: 100%; border: 1px solid green; padding: 5px;}
+
+@media screen and (max-width: 768px) {
+    .box-mensagens{
+        width: 100%;
+    }
+    
+    .chapeheader img{width: 35%}
+}

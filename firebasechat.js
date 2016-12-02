@@ -23,7 +23,7 @@ $(document).ready(function () {
         $('#mensagem').val('');
     });
 
-    //função .on que juntamente do child_added e do callback "snap" faz as mensagens serem carregadas em tempo real na parte das mensagens.
+    //função .on que juntamente do "child_added" e do callback "snap" faz as mensagens serem carregadas em tempo real na parte das mensagens.
     APP.on('child_added', function (snap) {
         var novamensagem = snap.val(); //Nova mensagem recebida.
         carregaMensagem(novamensagem.nomeusuario, novamensagem.mensagem);
